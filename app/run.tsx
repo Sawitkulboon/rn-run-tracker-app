@@ -33,6 +33,7 @@ export default function Run() {
   const showListRuns = ({ item }: { item: Runs }) => {
     return (
       <TouchableOpacity
+        // onPress={() => router.push('/${item.id}')}
         onPress={() => router.push({
           pathname: "/[id]",
           params: {
